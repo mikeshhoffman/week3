@@ -1,0 +1,86 @@
+    
+    /* H1 headlines change color on hover*/
+    h1:hover {
+      color: red;
+    }
+    
+    /* Visited links do not have underlines*/
+    a:visited {
+      text-decoration: none;
+    }
+    
+    /* Header is wider than article, both centered*/
+    header {
+      width: 75%;
+      margin:auto;
+      background-color: black;
+      color: white;
+    }
+    
+    article {
+      width: 50%
+      margin:auto;
+      background-color: blanchedalmond;
+      color: white;
+    }
+    
+    /* First letter of link text is bigger - has to be block not inline, doesn't work */
+    a::first-letter {
+      font-size:3em;
+    }
+    
+    /* Footer has a border*/
+    footer {
+      border: 1px solid red; /* borders have 3 values: how thick, linetype, color.  Shorthand. */
+      border-radius: 25px;
+    }
+            
+    /* Make corners of border curved*/
+/*
+    body {
+      background-color: aqua;
+    } 
+
+    header h1 {
+      color: purple;
+    }
+
+    h1 {
+      color: red;
+    }
+    
+    img {
+      width: 60%;
+      height: auto;
+    }
+
+    nav {
+      background-color: bisque;
+    }
+    
+    #main {
+      color: gray;
+    }
+    
+    .highlight {
+      color: yellow;
+    }
+    
+    aside p {
+      background-color: green;
+    }
+    
+    a {
+      text-decoration: line-through;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      font-size: 1.5em;
+    }
+    
+    p::first-letter {
+      font-size:2em;
+      color:firebrick;
+    }
+*/
